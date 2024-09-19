@@ -3,8 +3,8 @@ import './Services.css'
 
 function Services({ item }) {
   return (
-    <>
-      <Title title={"Services"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"} />
+    <div id="Services">
+      <Title  title={"Services"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"} />
       <div className="d-flex flex-wrap align-items-center m-4 ">
         {item.map((element, index) => (
           <div key={index} className="col-xl-4 col-sm-12 col-md-6  mb-4 text-center d-flex flex-column align-items-center p-4">
@@ -17,7 +17,7 @@ function Services({ item }) {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

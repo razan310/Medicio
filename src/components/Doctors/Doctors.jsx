@@ -5,7 +5,7 @@ import Title from '../Counter/Title/Title';
 
 function Doctors({ doctor }) {
   return (
-    <div className="p-4 colorbgblue" >
+    <div id="Doctors" className="p-4 colorbgblue" >
       <Title title={'Doctors'} desc={'Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit'} />
       
       <Row  className="g-4 p-4">

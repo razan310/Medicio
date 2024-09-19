@@ -6,7 +6,7 @@ import dataContact from './dataContact';
 
 function Contact({ data }) {
   return (
-    <>
+    <div id="Contact">
       {/* Title Component */}
       <Title title={"Contact"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"} />
       
@@ -31,7 +31,7 @@ function Contact({ data }) {
           <MyForm />
         </Col>
       </Row>
-    </>
+    </div>
   );
 }
 

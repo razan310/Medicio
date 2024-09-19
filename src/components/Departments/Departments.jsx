@@ -6,8 +6,8 @@ import { Row, Col } from 'react-bootstrap';
 const Departments = ({departments}) => {
   const [activeIndex, setActiveIndex] = useState(0); 
   return (
-    <>
-    <div className="p-4 maxHeight" >
+    <div id="Departments">
+    <div  className="p-4 maxHeight" >
         <Title title="Departments" desc="Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"/>
         <Row className=" d-flex justify-content-center align-items-center">
             {/* List of departments */}
@@ -47,7 +47,7 @@ const Departments = ({departments}) => {
             </Col>
         </Row>
       </div>
-    </>
+    </div>
   );
 };
 

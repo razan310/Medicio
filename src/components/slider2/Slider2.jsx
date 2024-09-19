@@ -9,7 +9,7 @@ function Slider2({slider}) {
   }
 
   return (
-    <div className="w-100">
+    <div id="Home" className="w-100">
       <Carousel style={{ height: '90vh' }}>
         {slider.map((element, index) => (
           <Carousel.Item key={index} style={{ height: '90vh' }}>
