@@ -27,7 +27,7 @@ const Testimonials = ({ data }) => {
 
   return (
     <>
-      <div className='p-4'>
+      <div className='p-4 overflow-hidden'>
         <Title title="Testimonials" desc="Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit" />
         <div className="d-flex flex-column align-items-center py-1 pt-3">
           {/* Container for the cards */}

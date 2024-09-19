@@ -27,7 +27,7 @@ const Gallery = ({ images }) => {
   };
 
   return (
-    <>
+    <div className='overflow-hidden'>
       <Title title={'Gallery'} desc={'Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit'} />
       <div className='d-flex justify-content-center align-items-center py-1 p-4'>
         <Container className="gallery-container">
@@ -61,7 +61,7 @@ const Gallery = ({ images }) => {
           </div>
         </Container>
       </div>
-    </>
+    </div>
   );
 };
 
