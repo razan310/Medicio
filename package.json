@@ -2,7 +2,7 @@
   "name": "task4",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://razan310.github.io/Task4/",
+  "homepage": "https://razan310.github.io/Medicio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
