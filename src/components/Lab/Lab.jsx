@@ -6,7 +6,7 @@ import './Lab.css';
 
 function Lab() {
   return (
-    <div className="p-5">
+    <div className="p-5 overflow-hidden">
       <Container>
         <Row className="g-4">
           <Col xs={12} xl={6}>

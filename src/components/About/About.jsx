@@ -7,7 +7,7 @@ import './About.css'
 
 function About() {
   return (
-    <div id="About" className="p-5">
+    <div id="About" className="p-5 overflow-hidden">
       <Title
         title={"About Us"}
         desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"}

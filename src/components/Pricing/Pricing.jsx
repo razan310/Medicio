@@ -8,7 +8,7 @@ import { BiDollar } from 'react-icons/bi';
 
 function Pricing({ dataPricing }) {
   return (
-    <div>
+    <div className='overflow-hidden'>
       
       <Title title={'Pricing'} desc={'Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit'} />
       <div className='p-4 d-flex justify-content-center w-100'>

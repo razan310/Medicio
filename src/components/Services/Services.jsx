@@ -3,7 +3,7 @@ import './Services.css'
 
 function Services({ item }) {
   return (
-    <div id="Services">
+    <div id="Services" className="overflow-hidden">
       <Title  title={"Services"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"} />
       <div className="d-flex flex-wrap align-items-center m-4 ">
         {item.map((element, index) => (

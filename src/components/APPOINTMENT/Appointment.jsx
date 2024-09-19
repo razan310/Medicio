@@ -6,7 +6,7 @@ import './Appointment.css'
 
 function Appointment() {
   return (
-    <div className="colorbgblue py-5 ">
+    <div className="colorbgblue py-5 overflow-hidden">
         <Title title={"MAKE AN APPOINTMENT"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"}/>
         <FormInput/>
         <div className="d-flex justify-content-center">

@@ -5,7 +5,7 @@ import { MdOutlineFacebook } from 'react-icons/md';
 
 function Footer() {
   return (
-    <div className="colorbgblue color-h p-4">
+    <div className="colorbgblue color-h p-4 overflow-hidden">
       <Container fluid>
         <Row className="">
           <Col xs={12} lg={4} md={6} >

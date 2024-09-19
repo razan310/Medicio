@@ -6,8 +6,8 @@ import { logo, navItems } from './navData';
 
 function NavBar({ btn }) {
   return (
-    <>
-      <div className='fixed-top' id="navbar1">
+    <div className='overflow-hidden'>
+      <div className='fixed-top ' id="navbar1">
       <div className="bg-top" style={{width:"100vw"}}>
         <Container fluid className="px-md-5 px-sm-0">
           <Row className="align-items-center">
@@ -52,7 +52,7 @@ function NavBar({ btn }) {
           </div>
           </div>
       
-    </>
+    </div>
   );
 }
 

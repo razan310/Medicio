@@ -6,7 +6,7 @@ import { Row, Col } from 'react-bootstrap';
 const Departments = ({departments}) => {
   const [activeIndex, setActiveIndex] = useState(0); 
   return (
-    <div id="Departments">
+    <div id="Departments" className="overflow-hidden">
     <div  className="p-4 maxHeight" >
         <Title title="Departments" desc="Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"/>
         <Row className=" d-flex justify-content-center align-items-center">

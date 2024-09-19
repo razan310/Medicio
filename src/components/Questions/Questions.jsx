@@ -4,7 +4,7 @@ import './Questions.css';
 
 function Questions({ data }) {
   return (
-    <div className='colorbgblue pb-4'>
+    <div className='colorbgblue pb-4 overflow-hidden'>
       <Title title={'Frequently Asked Questions'} desc={'Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit'} />
       <div className='m-5'>
       

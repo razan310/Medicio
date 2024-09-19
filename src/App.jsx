@@ -36,7 +36,7 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   return (
-    <>
+    <div className='overflow-hidden'>
     <NavBar btn="Make an Appointment" />
     <Slider2 slider={dataSlides} />
     <ScrollButton/>
@@ -57,7 +57,7 @@ function App() {
     <Footer/>
 
 
-    </>
+    </div>
         
   )
 }

@@ -6,7 +6,7 @@ import dataContact from './dataContact';
 
 function Contact({ data }) {
   return (
-    <div id="Contact">
+    <div id="Contact" className='overflow-hidden'>
       {/* Title Component */}
       <Title title={"Contact"} desc={"Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit"} />
       

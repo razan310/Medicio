@@ -4,7 +4,7 @@ import './FeatuerServices.css';
 
 function FeaturedServices({ feature }) {
   return (
-    <Container className="pt-3">
+    <Container className="pt-3 overflow-hidden">
       <Row className="g-3">
         {feature.map((element, index) => (
           <Col key={index} 
